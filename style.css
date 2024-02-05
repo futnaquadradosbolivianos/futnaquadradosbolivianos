@@ -1,0 +1,196 @@
+#logo {
+  width: 30%;
+  height: 30%;
+  border: outset 5px #FFFFFF;
+  margin: auto;
+  display: block;
+}
+
+body#prevoto {
+  background: linear-gradient(180deg, #FFFFFF, #006C7D);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#inputchave {
+  margin: 10px auto;
+  height: 50px;
+  width: 90%;
+  border-radius: 15px;
+  border: solid 3px;
+  position: relative;
+  top: 0px;
+}
+
+#titulo {
+  color: #FFFFFF;
+  position: relative;
+  top: 10px;
+  -webkit-text-stroke: 2px #000000;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -5px 0px 0px #006C7D;
+
+}
+
+#buttonprevoto {
+  margin: 10px auto;
+  border-radius: 10px;
+  color: white;
+  background-color: #000000;
+  border: none;
+  height: 80px;
+  width: 90%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#buttonvotar {
+  position: relative;
+  top: 75px;
+  border-radius: 10px;
+  color: white;
+  background-color: #3EB5F8;
+  border: none;
+  height: 80px;
+  width: 90%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#labelvotar {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*pagina visualização de perguntas*/
+#tabela {
+  border: 5px solid white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body#perguntas {
+  background: linear-gradient(180deg, #26A4CD, #FFE000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+tr,
+th,
+td {
+  border: 2px solid white;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+#tabelatest {
+  border: 5px solid white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body#test {
+  background: linear-gradient(180deg, #26A4CD, #FFE000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+tr,
+th,
+td {
+  border: 2px solid white;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+/*página inicio*/
+
+#headerinicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 100px;
+}
+
+#buttonjogosinicio {
+  position: relative;
+  top: -30px;
+  left: 25%;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  background-color: #4E6D8A;
+  border: none;
+  height: 40px;
+  width: 22%;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+#buttonvotacaoinicio {
+  position: relative;
+  top: -30px;
+  left: 23%;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  background-color: #A2A2A2;
+  border: none;
+  height: 40px;
+  width: 22%;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+#buttonvotacaoinicio:hover{
+  background-color: #666666;
+}
+
+#buttonjogosinicio:hover{
+  background-color: #1C4165;
+}
+
+body#inicio {
+  background: linear-gradient(180deg, #2E6541, #05F3FF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+#logoinicio{
+  width: 20%;
+  height: 20%;
+  border: outset 5px #FFFFFF;
+  margin: auto;
+  display: block;
+}
+
+
+/*página jogos*/
+
+body#jogos{
+  background: linear-gradient(180deg, #0038FF, #C8FF0E);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#buttonjogos{
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: #000000;
+  border: none;
+  height: 80px;
+  width: 100%;
+  font-size: 30px;
+  margin: 10px auto;
+  font-weight: bold;
+}
