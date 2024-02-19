@@ -112,13 +112,13 @@ body#inicio {
   margin: 10px;
 }
 
-.header {
+#header {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   border: 5px solid;
 }
 
-.aheader {
+a#header {
   display: inline-block;
   padding: 5% 3%;
   color: #FFFFFF;
