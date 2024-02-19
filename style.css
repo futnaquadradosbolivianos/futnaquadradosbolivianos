@@ -1,3 +1,5 @@
+/*página pré voto*/
+
 #logo {
   width: 30%;
   height: 30%;
@@ -22,7 +24,7 @@ body#prevoto {
   top: 0px;
 }
 
-#titulo {
+#tituloprevoto {
   color: #FFFFFF;
   position: relative;
   top: 10px;
@@ -46,6 +48,8 @@ body#prevoto {
   font-weight: bold;
 }
 
+
+/*página votos*/
 #buttonvotar {
   position: relative;
   top: 75px;
@@ -64,7 +68,8 @@ body#prevoto {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/*pagina visualização de perguntas*/
+
+/*pagina adm visualização de perguntas*/
 #tabela {
   border: 5px solid white;
   border-collapse: collapse;
@@ -85,112 +90,85 @@ td {
   color: #FFFFFF;
 }
 
-
-#tabelatest {
-  border: 5px solid white;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-body#test {
-  background: linear-gradient(180deg, #26A4CD, #FFE000);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-tr,
-th,
-td {
-  border: 2px solid white;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-
-
 /*página inicio*/
 
-#headerinicio {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: 100px;
-}
-
-#buttonjogosinicio {
-  position: relative;
-  top: -30px;
-  left: 25%;
-  margin: 10px auto;
-  border-radius: 5px;
-  color: white;
-  background-color: #4E6D8A;
-  border: none;
-  height: 40px;
-  width: 22%;
-  font-size: 15px;
-  font-weight: bold;
-  white-space: nowrap;
-}
-
-#buttonvotacaoinicio {
-  position: relative;
-  top: -30px;
-  left: 23%;
-  margin: 10px auto;
-  border-radius: 5px;
-  color: white;
-  background-color: #A2A2A2;
-  border: none;
-  height: 40px;
-  width: 22%;
-  font-size: 15px;
-  font-weight: bold;
-  white-space: nowrap;
-}
-
-#buttonvotacaoinicio:hover{
-  background-color: #666666;
-}
-
-#buttonjogosinicio:hover{
-  background-color: #1C4165;
-}
-
+html#inicio,
 body#inicio {
-  background: linear-gradient(180deg, #2E6541, #05F3FF);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  height: 101%;
   margin: 0;
-  padding: 0;
+  overflow-x: hidden;
+  background-color: #FFD458;
 }
 
-#logoinicio{
-  width: 20%;
-  height: 20%;
+#tituloinicio {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 10px;
+}
+
+#paragrafoinicio {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 10px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  border: 5px solid;
+}
+
+a#header {
+  display: inline-block;
+  padding: 5% 3%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(46, 46, 46, 0.8);
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+
+#logoheader {
+  position: relative;
+  width: 15%;
+  height: 15%;
   border: outset 5px #FFFFFF;
-  margin: auto;
   display: block;
 }
 
 
 /*página jogos*/
-
-body#jogos{
-  background: linear-gradient(180deg, #0038FF, #C8FF0E);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+html#jogos,
+body#jogos {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #58BBFF;
 }
 
-#buttonjogos{
+#buttonjogos {
   position: relative;
-  text-align: center;
   border-radius: 10px;
   color: white;
   background-color: #000000;
   border: none;
   height: 80px;
-  width: 100%;
+  width: 80%;
   font-size: 30px;
   margin: 10px auto;
   font-weight: bold;
 }
+
+/* página mídias */
+
+html#midias,
+body#midias {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #58BBFF;
+  }
