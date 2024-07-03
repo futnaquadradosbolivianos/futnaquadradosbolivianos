@@ -1,7 +1,7 @@
 function verificarpalavrachave() {
   var palavrachave = document.getElementById('inputchave').value;
 
-  // Substituir pela palavra-chave que eu quero
+  // Substituir pela palavra-chave que o adm quiser (não existe segurança mesmo)
   if (palavrachave === 'pumamarelo27') {
     window.location.href = 'adm.php'; // Redireciona para a página do adm
   } else {
